@@ -10,7 +10,25 @@ header .container, main .container , footer .container  {
 }
 header {
     background: #fff;
+    overflow: auto;
+}
+header h1 {
+    float: left;
+    width: 570px;    
+}
+header nav {
+    float: right;
+    width: 285px;
 }
 main {
     background: #fff;
+    overflow: auto;
 }
+.main-left {
+    float: left;
+    width: 570px;
+}
+.main-right {
+    float: right;
+    width: 285px;
+} 
