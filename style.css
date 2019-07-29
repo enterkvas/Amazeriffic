@@ -1,20 +1,45 @@
 body {
-    background: #f9e933;    
+    background: #f9e933;
+    font-size: 12px;    
+}
+/* h1, h2, h3, h4, h5 {
+    font-family: 'Ubuntu', sans-serif; 
+    
+}*/
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.8em;
+    font-weight: 400;
+    font-style: italic;
+
+    width: 570px;
+    float: left;    
+}
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.9em;
+    font-weight: 700;    
+}
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3em;
+    font-weight: 700;    
+}
+h5 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;    
 }
 header, main, footer {
     min-width: 855px;   
 }
 header .container, main .container , footer .container  {
     max-width: 855px;
-    margin: auto;
+    margin: auto;        
 }
 header {
     background: #fff;
     overflow: auto;
-}
-header h1 {
-    float: left;
-    width: 570px;    
 }
 header nav {
     float: right;
@@ -32,3 +57,5 @@ main {
     float: right;
     width: 285px;
 } 
+
+/* font-family: 'Ubuntu', sans-serif; */
