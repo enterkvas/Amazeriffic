@@ -1,13 +1,11 @@
 body {
-    background: #f9e933;
-    font-size: 12px;    
+    background: #f9e933;       
 }
-/* h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5 {
     font-family: 'Ubuntu', sans-serif; 
     
-}*/
-h1 {
-    font-family: 'Ubuntu', sans-serif;
+}
+h1 {   
     font-size: 3.8em;
     font-weight: 400;
     font-style: italic;
@@ -15,18 +13,15 @@ h1 {
     width: 570px;
     float: left;    
 }
-h2 {
-    font-family: 'Ubuntu', sans-serif;
+h2 {    
     font-size: 1.9em;
     font-weight: 700;    
 }
-h3 {
-    font-family: 'Ubuntu', sans-serif;
+h3 {    
     font-size: 1.3em;
     font-weight: 700;    
 }
-h5 {
-    font-family: 'Ubuntu', sans-serif;
+h5 {    
     font-size: 1.5em;
     font-weight: 400;    
 }
@@ -57,5 +52,3 @@ main {
     float: right;
     width: 285px;
 } 
-
-/* font-family: 'Ubuntu', sans-serif; */
