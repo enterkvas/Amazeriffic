@@ -2,11 +2,10 @@ body {
     background: #f9e933;       
 }
 h1, h2, h3, h4, h5 {
-    font-family: 'Ubuntu', sans-serif; 
-    
+    font-family: 'Ubuntu', sans-serif;    
 }
 h1 {   
-    font-size: 3.8em;
+    font-size: 280%;
     font-weight: 400;
     font-style: italic;
 
@@ -14,15 +13,13 @@ h1 {
     float: left;    
 }
 h2 {    
-    font-size: 1.9em;
+    font-size: 147%;
     font-weight: 700;    
 }
 h3 {    
-    font-size: 1.3em;
     font-weight: 700;    
 }
 h5 {    
-    font-size: 1.5em;
     font-weight: 400;    
 }
 header, main, footer {
