@@ -5,13 +5,16 @@ body {
     * {    
         box-sizing: border-box;
     }
+    .clear {
+        clear: right;
+    }
 
     h1, h2, h3, h4, h5 {
         font-family: 'Ubuntu', sans-serif;    
     }
     h1 { 
-        width: 533px;  
-        font-size: 290%;
+        width: 60%;  
+        font-size: 270%;
         font-weight: 400;
         font-style: italic;
         padding-top: 20px;
@@ -32,7 +35,7 @@ body {
     }
     h5 { 
         font-size: 75%;   
-        font-weight: 400;    
+        font-weight: 400;        
     }
     header, main, footer {
         min-width: 800px;   
@@ -43,14 +46,15 @@ body {
     }
 
 header {
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
     background: #fff;
     overflow: auto;   
 }
     header nav {        
-        width: 267px;
-        margin-top: 25px;        
-        font-size: 95%;
+        width: 40%;
+        margin-top: 20px;
+        padding-left: 10px;        
+        font-size: 85%;
         font-weight: 700;
 
         float: right;
@@ -62,8 +66,8 @@ header {
 
 main {
     background: #fff;    
-    padding-bottom: 35px;
-    padding-top: 35px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     overflow: auto;
 }
     .main-left {        
@@ -92,3 +96,24 @@ main {
 
         float: right;
     } 
+
+    footer {
+        background: #ccc;
+    }
+        .contact {
+            float: left;
+            width: 65%;
+        }
+        .sitemap {           
+            float: right;
+            width: 35%;
+        }
+            .sitemap ul {
+                float: right;
+            }
+            .sitemap h5 { 
+                font-size: 75%;   
+                font-weight: 400;
+                
+                float: left;
+            }
