@@ -1,5 +1,4 @@
-body {
-    background: #f9e933;
+body {    
     font-family: 'Noto Sans', sans-serif;       
 }
     * {    
@@ -34,8 +33,9 @@ body {
         font-weight: 700;    
     }
     h5 { 
-        font-size: 75%;   
-        font-weight: 400;        
+        font-size: 100%;   
+        font-weight: 400;
+        margin-bottom: 15px;        
     }
     header, main, footer {
         min-width: 800px;   
@@ -70,13 +70,12 @@ main {
     overflow: auto;
 }
     .main-left {        
-        width: 75%;
+        width: 65%;
         padding-left: 35px;
 
         float: left;
     }
-        .main-left p {
-            padding-right: 50px;
+        .main-left p {            
             margin-bottom: 15px;
             font-size: 75%;
             font-weight: 700;
@@ -91,28 +90,53 @@ main {
                 line-height: 1.5;               
             }
     .main-right {        
-        width: 25%;        
+        width: 35%;
+        padding-left: 80px;        
 
         float: right;
     } 
 
-    footer {
-        background: #ccc;
+footer {
+    background: #ccc;
+    height: 120px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100px;
+}
+    .contact {
+        float: left;
+        width: 65%;        
     }
-        .contact {
-            float: left;
-            width: 65%;
+        .contact p {
+            font-size: 75%;
         }
-        .sitemap {           
-            float: right;
-            width: 35%;
-        }
-            .sitemap ul {
-                float: right;
+            .contact p span {
+                font-style: italic;
+                font-weight: normal;
             }
-            .sitemap h5 { 
-                font-size: 75%;   
-                font-weight: 400;
-                
+    .sitemap {           
+        float: right;
+        width: 35%;
+    }      
+        .sitemap-list {
+            list-style-type: none;
+            font-size: 75%;                        
+        }
+            .sitemap-list li {               
+                font-weight: 700;
+            }
+                .sitemap-list li a {
+                    text-decoration: none; 
+                    color: #222;                
+                }
+            .sitemap-list_left {
+                margin-right: 120px; 
+
+                float: left;
+            }
+            .sitemap-list_right {
                 float: left;
             }
